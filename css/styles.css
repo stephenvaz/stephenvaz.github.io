@@ -24,7 +24,7 @@ h1:before, h1:after {
 }
 
 h1::before {
-  background: rgba(255,230,230);
+  background: rgba(152,255,152);
   animation: write 2.5s steps(25) 0.5s forwards; /* Number of steps */
   width: 100%;
 }
