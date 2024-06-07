@@ -6,12 +6,9 @@ function App() {
 
   return (
     <div className='relative overflow-hidden'>
-      <div
-        
-      >
+      
       <FuzzyOverlay />
       <RevealBento />
-      </div>
       
     </div>
   )
