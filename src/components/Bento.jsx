@@ -70,7 +70,7 @@ const HeaderBlock = () => (
     }}
   >
     <img
-      src="https://api.dicebear.com/8.x/lorelei-neutral/svg?seed=Ted"
+      src="/avatar.svg"
       alt="avatar"
       className="mb-4 size-14 rounded-full"
     />
