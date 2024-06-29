@@ -45,6 +45,7 @@ const Block = ({ className, ...rest }) => {
         animate: {
           scale: 1,
           y: 0,
+          zIndex: 1,
           opacity: 1,
         },
       }}
@@ -53,6 +54,9 @@ const Block = ({ className, ...rest }) => {
         mass: 3,
         stiffness: 400,
         damping: 50,
+      }}
+      style={{
+        opacity: 0.99,
       }}
       className={twMerge(
         "col-span-4 rounded-lg border border-zinc-700 bg-zinc-800 p-6",
@@ -207,6 +211,9 @@ const LocationBlock = () => (
         target="_blank"
         rel="noopener noreferrer"
         className="col-span-12 md:col-span-4"
+        style={{
+          zIndex: 1,
+        }}
     >
         <Block
             className="col-span-12 flex flex-col items-center gap-4 md:col-span-4"

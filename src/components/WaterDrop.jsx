@@ -1,6 +1,6 @@
 import anime from "animejs";
 
-const GRID_WIDTH = 25;
+const GRID_WIDTH = 30;
 const GRID_HEIGHT = 4;
 
 const DotGrid = () => {
